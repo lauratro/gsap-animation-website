@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header,
+main {
+  font-family: "Heebo", sans-serif;
+  color: rgb(177, 173, 173);
+}
+.landing {
+  height: 100vh;
+  background-image: url("./img/flower-field-sm.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  padding-left: 10rem;
+  font: size 1.2rem;
+}
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: antiquewhite;
+}
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: orange;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+}
+.intro-text {
+  color: antiquewhite;
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem;
+}
+.hide {
+  background: black;
+  overflow: hidden;
+}
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
